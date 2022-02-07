@@ -1,9 +1,8 @@
-# Welcome to your Jupyter Book
+# Intro Projektdokumentation
 
-This is a small sample book to give you a feel for how book content is
-structured.
+In dieser Projektdokumentation wird die Vorgehensweise des Data-Storytelling-Projekts genauer erläutert. Zudem werden Einzelheiten über die Gestaltungsprinzipien der mithilfe von Python erstellten Diagramme erläutert.
 
-:::{note}
+<!-- :::{note}
 Here is a note!
 :::
 
@@ -11,6 +10,8 @@ And here is a code block:
 
 ```
 e = mc^2
-```
+``` -->
 
-Check out the content pages bundled with this sample book to see more.
+**Quicklinks**
+- [Vorgehensweise](vorgehensweise.md)
+- [Gestaltungsprinzipien](gestaltungsprinzipien.md)
