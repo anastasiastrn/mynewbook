@@ -41,7 +41,7 @@ Nachdem nun eine Kollektion von möglichen und passenden Darstellungsformen vorl
 
 Für die technische Umsetzung der Visualisierungen wurde die Python Bibliothek Plotly genutzt. Doch bevor die Diagramme erstellt werden konnten, mussten zunächst die Daten beschaffen werden. Dafür wurden alle Produkte der Kategorien: Smartphones, Smartwatches, Tablets und Notebooks von Huawei auf der Online-Plattform OTTO gescrapt. 
 
-:::{note} Info
+:::{note}
 Dieser Vorgang fand nicht mithilfe von Python statt, sondern es wurde RStudio und die Programmiersprache R genutzt. Hintergrund dieser Entscheidung war, dass das Programm und die Sprache in früheren Veranstaltungen für denselben Zweck eingesetzt wurde. Daher war der Umgang und die Vorgehensweise bereits bekannt.
 :::
 
