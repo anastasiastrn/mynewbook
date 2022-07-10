@@ -4,17 +4,17 @@ Im Folgenden wird nun die Vorgehensweise im Projekt beschrieben.
 
 ### 1. Thema festlegen
 
-Im ersten Schritt war die Festlegung auf ein Thema erforderlich. Hierfür wurde die Website https://dash.gallery/Portal/ herangezogen, um bereits umgesetzte Dashboards einzusehen. Das sollte als Inspirationsquelle genutzt werden, um auf eigene Ideen zu kommen. Zudem konnte man einen Überblick über verschiedenste Visualisierungsformen erhalten. 
+Im ersten Schritt war die Festlegung eines Themas erforderlich. Hierfür wurde die Website der [Dash-Gallery](https://dash.gallery/Portal/) herangezogen, um bereits umgesetzte Dashboards einzusehen. Das sollte als Inspirationsquelle dienen, um eigene Ideen zu entwickeln. Zudem konnte man sich einen Überblick über verschiedenste Visualisierungsformen verschaffen. 
 
-Durch bereits durchgeführte Projekte in vergangenen Semestern waren Kenntnisse im Bereich Web-Scraping vorhanden. Aus diesem Grund wurde auf diesem Wissen aufgebaut und eine ähnliche Projektidee gewählt. Diese ging der Frage nach, wie Produkte von der Marke Huawei auf der Online-Shop-Plattform OTTO bewertet werden und welche Kritik von Kund:innen geäußert wird. 
+Durch bereits durchgeführte Projekte der vergangenen Semester, waren Kenntnisse im Bereich Web Scraping vorhanden. Aus diesem Grund wurde eine Projektidee erarbeitet, die in dieselbe Themenrichtung geht, da somit auf diesem Wissen aufgebaut werden konnte. Das Projekt ging der Frage nach, wie Produkte der Marke Huawei auf der Online-Shop-Plattform OTTO bewertet werden und welche Kritik von Kund:innen geäußert wird. 
 
 ### 2. BIG IDEA Worksheet
 
-Im nächsten Schritt wurde das vom Kurs gestellte Dokument "BIG IDEA Worksheet" genutzt, um das Thema und vor allen Dingen die Zielgruppe des Vortrags zu bestimmmen. Das half dabei die relevantesten Informationen und Gedanken zum Projekt festzuhalten und bei der weiteren Projektbearbeitung stets zu berücksichtigen.
+Im nächsten Schritt wurde das vom Kurs gestellte Dokument "BIG IDEA Worksheet" genutzt, um das Thema und vor allen Dingen die Zielgruppe des Vortrags zu bestimmmen. Das half dabei die relevantesten Informationen und Gedanken zum Projekt festzuhalten. Bei der weiteren Projektbearbeitung galt dies stets zu berücksichtigen.
 
 ### 3. Storyboarding
 
-Auf einer virtuellen Pinnwand-Plattform namens Miro, wurden Gedanken nach dem Storyboarding Prinzip nach der Brainstorming Methode notiert. Die einzelnen Aspekte waren:
+Auf der virtuellen Whiteboard-Plattform Miro, wurden anschließend Gedanken zum Storyboarding mithilfe der Brainstorming Methode notiert. Die einzelnen Aspekte waren:
 - Background
 - Analysis
 - Recommendation
@@ -24,14 +24,14 @@ Auf einer virtuellen Pinnwand-Plattform namens Miro, wurden Gedanken nach dem St
 
 ![](miro-board.png)
 
-Daraus ließ sich dann eine Struktur ableiten, die in der Präsentation eingehalten werden sollte. Folglich sollte zunächst das Problem und der Hintergrund beschrieben, dann die Analyse und Ergebnisse präsentiert werden, bevor am Schluss eine Handlungsempfehlung für das fiktive Unternehmen ausgesprochen werden sollte.
+Daraus ließ sich dann eine Struktur ableiten, die in der Präsentation eingehalten werden sollte. Folglich sollte zunächst das Problem und der Hintergrund beschrieben und dann die Analyse und Ergebnisse präsentiert werden. Am Schluss soll eine Handlungsempfehlung für das fiktive Unternehmen ausgesprochen werden.
 
 ### 4. Layout des Dashboards bestimmen
 
 Hierbei wurde sich intensiv mit der Frage beschäftigt: 
 > "Wie sollen die vorliegenden Daten visualisiert werden?"
 
-Um eine Antwort auf diese Frage zu finden, konnte die Website https://www.data-to-viz.com/ Abhilfe schaffen. Auf dieser Webseite hat man die Möglichkeit nach den vorliegenden Datentypen zu filtern und auf diese Weise passende Visualisierungsformen vorgeschlagen bekommen. Eine sehr hilfreiche Plattform, die einen in diesem Zwischenschritt optimal unterstützt hatte. 
+Um eine Antwort auf diese Frage zu finden, konnte die Website von [Data to Viz](https://www.data-to-viz.com/) Abhilfe schaffen. Hier hat man die Möglichkeit, nach den vorliegenden Datentypen zu filtern und bekommt dann passende Visualisierungsformen vorgeschlagen. Eine sehr hilfreiche Plattform, die einen in diesem Zwischenschritt optimal unterstützt. 
 
 Nachdem nun eine Kollektion von möglichen und passenden Darstellungsformen vorlag, wurden diese erstmalig auf Papier skizziert. Diese Skizzen wurden dann final im Dashboard umgesetzt und boten während dem Programmierprozess eine gute Orientierung. 
 
@@ -39,16 +39,16 @@ Nachdem nun eine Kollektion von möglichen und passenden Darstellungsformen vorl
 
 ### 5. Umsetzung des Dashboards mit Dash und Plotly
 
-Für die technische Umsetzung der Visualisierungen wurde die Python Bibliothek Plotly genutzt. Doch bevor die Diagramme erstellt werden konnten, mussten zunächst die Daten beschaffen werden. Dafür wurden alle Produkte der Kategorien: Smartphones, Smartwatches, Tablets und Notebooks von Huawei auf der Online-Plattform OTTO gescrapt. 
+Für die technische Umsetzung der Visualisierungen wurde die Python Bibliothek Plotly genutzt. Doch bevor die Diagramme erstellt werden konnten, mussten zunächst die Daten beschaffen werden. Dafür wurden alle Huawei-Produkte, die mindestens drei Rezensionen aufwiesen, in den Produktkategorien: Smartphones, Smartwatches, Tablets und Notebooks auf der Online-Plattform OTTO gescrapt.
 
 :::{note}
-Dieser Vorgang fand nicht mithilfe von Python statt, sondern es wurde RStudio und die Programmiersprache R genutzt. Hintergrund dieser Entscheidung war, dass das Programm und die Sprache in früheren Veranstaltungen für denselben Zweck eingesetzt wurde. Daher war der Umgang und die Vorgehensweise bereits bekannt.
+Dieser Vorgang fand nicht mithilfe von Python statt, sondern es wurde RStudio und die Programmiersprache R genutzt. Hintergrund dieser Entscheidung war, dass das Programm und die Sprache in früheren Veranstaltungen für denselben Zweck eingesetzt wurden. Daher war die Vorgehensweise bereits bekannt und es konnte auf dem vorhandenen Wissen aufgebaut werden.
 :::
 
 Zunächst wurden faktische Daten beschaffen, wie der Produktname, Preis, die Sternebewertung sowie die Weiterempfehlungsrate. Diese numerischen und kategorialen Daten wurden in einem Dataframe abgespeichert und waren die Grundlage für die folgenden Visualisierungsformen: Das Lollipop- und Donut-Diagramm.
 
 Im nächsten Schritt wurden dann die Kommentare der Produkte gescrapt und ebenfalls in einem Dataframe abgespeichert. Diese Daten waren die Grundlage für das Wordcloud-Diagramm. Dabei wurden die Kommentare als ganze Textabschnitte abgespeichert und untersucht, um daraus eine WordCloud zu generieren. 
-Anders als beim Balkendiagramm: Für die Häufigkeitsauszählungen mussten die Kommentare im Schritt davor tokenisiert werden. Das heißt die Kommentare wurden Wort für Wort voneinander getrennt, sodass im Dataframe in jeder Zeile nur ein einzelnes Wort aufgeführt wurde. Anschließend wurde die Häufigkeit ausgezählt und ebenfalls im Dataframe abgespeichert. Mithilfe von Plotly konnte dann ein horizontales Balkendiagramm erstellt werden.
+Für das Balkendiagramm hingegen, mussten die Kommentare für die Häufigkeitsauszählung im Schritt davor tokenisiert werden. Das heißt die Kommentare wurden Wort für Wort voneinander getrennt, sodass im Dataframe in jeder Zelle nur ein einzelnes Wort aufgeführt wurde. Anschließend wurde die Häufigkeit ausgezählt und ebenfalls in einem Dataframe abgespeichert. Mithilfe von Plotly konnte dann ein horizontales Balkendiagramm erstellt werden.
 
 ### 6. Erstellung des Reports
 
@@ -56,7 +56,17 @@ Der Report sollte als eine Art Handout denjenigen zur Verfügung stehen, die wä
 
 ### 7. Erstellung der Präsentation
 
-Da die Ergebnisse des Dashboards in einer Präsentation vorgestellt werden, musste natürlich noch eine Präsentation gestaltet werden. Hierfür wurde Canvas/PowerPoint genutzt und einzelne Folien für den Vortrag erstellt. Währenddessen ist geplant, das Dashboard miteinzubinden und live vorzustellen. Wichtig bei der Erstellung war, dass darauf geachtet wurde, nicht zu viele Informationen auf einer Folie festzuhalten, sondern ein Ergebnis pro Slide zu präsentieren. Das führt dazu, dass sich das Publikum auf die Erkenntnisse fokussieren kann, ohne mit zu vielen Inhalten konfrontiert zu werden, da das die Konzentration und Aufnahmefähigkeit negativ beeinträchtigt.
+Für die Abschlusspräsentation wurde zunächst Canva genutzt, um ein ansprechendes Design für die Foliensätze zu finden. Später wurde diese nochmal in PowerPoint weiterbearbeitet. Da die Präsentation im fiktiven Szenario an das Unternehmen Huawei gerichtet ist, wurden allgemein dunklere Farben gewählt sowie das akzentreiche Rot aus dem Huawei-Logo. Alle Illustrationen, die verwendet wurden entstammen aus der Open Source Plattform [unDraw](https://undraw.co/). Die Gliederung des Vortrags ergab sich einerseits aus den Kurs-Vorgaben und andererseits aus den Gedanken zum Storyboarding:
+
+1. Hintergrund und Problemstellung
+2. Projektziel
+3. Vorgehensweise und Metriken
+4. Ergebnisse
+5. Handlungsempfehlung
+
+Die ersten drei inhaltlichen Punkte sollen zur Einführung ins Unternehmen selbst und dem zugrundeliegenden Projekt dienen. Daher wurde auch das Ziel, die Vorgehensweise und die verwendeten Metriken kurz erläutert, um den Zusammenhang besser nachvollziehen zu können. 
+Für die Präsentation der Ergebnisse wurden Screenshots vom Dashboard eingebaut, um den Präsentationsmodus nicht unterbrechen und zu einer anderen Anwendung wechseln zu müssen. Sie entstammen also der eigenen Darstellung.
+Allgemein wurde stark darauf geachtet, den Fokus auf das Wesentliche zu lenken, indem PowerPoint-Animationen hinzugefügt wurden. Das ermöglichte es einzelne Stichworte auf den Folien hervorzuheben während die restlichen ausgegraut wurden. Dadurch soll ein besseres Folgen seitens der Zuhörer:innen ermöglicht werden, wie wir es in der Vorlesung bereits thematisiert hatten. Wichtig war auch, dass nicht zu viele Informationen auf den Folien festgehalten wurde, damit das Publikum nicht mit zu vielen Inhalten gleichzeitig konfrontiert wird. Das soll die Konzentration und Aufnahmefähigkeit während der Präsentation gewährleisten.
 
 ### 8. Verfassung der Projektdokumentation
 

@@ -1,6 +1,6 @@
 # Intro Projektdokumentation
 
-In dieser Projektdokumentation wird die Vorgehensweise des Data-Storytelling-Projekts genauer erläutert. Zudem werden Einzelheiten über die Gestaltungsprinzipien der mithilfe von Python erstellten Diagramme erläutert.
+In dieser Projektdokumentation wird die Vorgehensweise des Data-Storytelling-Projekts genauer behandelt. Zudem werden Einzelheiten über die Gestaltungsprinzipien der mithilfe von Python erstellten Diagramme erläutert.
 
 
 **Quicklinks**
