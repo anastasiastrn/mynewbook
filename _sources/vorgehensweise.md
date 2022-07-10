@@ -56,7 +56,7 @@ Der Report sollte als eine Art Handout denjenigen zur Verfügung stehen, die wä
 
 ### 7. Erstellung der Präsentation
 
-Für die Abschlusspräsentation wurde zunächst Canva genutzt, um ein ansprechendes Design für die Foliensätze zu finden. Später wurde diese nochmal in PowerPoint weiterbearbeitet. Da die Präsentation im fiktiven Szenario an das Unternehmen Huawei gerichtet ist, wurden allgemein dunklere Farben gewählt sowie das akzentreiche Rot aus dem Huawei-Logo. Alle Illustrationen, die verwendet wurden entstammen aus der Open Source Plattform [unDraw](https://undraw.co/). Die Gliederung des Vortrags ergab sich einerseits aus den Kurs-Vorgaben und andererseits aus den Gedanken zum Storyboarding:
+Für die Abschlusspräsentation wurde zunächst [Canva](https://www.canva.com/) genutzt, um ein ansprechendes Design für die Foliensätze zu finden. Später wurde diese nochmal in PowerPoint weiterbearbeitet. Da die Präsentation im fiktiven Szenario an das Unternehmen Huawei gerichtet ist, wurden allgemein dunklere Farben gewählt sowie das akzentreiche Rot aus dem Huawei-Logo. Alle Illustrationen, die verwendet wurden entstammen aus der Open Source Plattform [unDraw](https://undraw.co/). Die Gliederung des Vortrags ergab sich einerseits aus den Kurs-Vorgaben und andererseits aus den Gedanken zum Storyboarding:
 
 1. Hintergrund und Problemstellung
 2. Projektziel
