@@ -50,11 +50,7 @@ Zunächst wurden faktische Daten beschaffen, wie der Produktname, Preis, die Ste
 Im nächsten Schritt wurden dann die Kommentare der Produkte gescrapt und ebenfalls in einem Dataframe abgespeichert. Diese Daten waren die Grundlage für das Wordcloud-Diagramm. Dabei wurden die Kommentare als ganze Textabschnitte abgespeichert und untersucht, um daraus eine WordCloud zu generieren. 
 Für das Balkendiagramm hingegen, mussten die Kommentare für die Häufigkeitsauszählung im Schritt davor tokenisiert werden. Das heißt die Kommentare wurden Wort für Wort voneinander getrennt, sodass im Dataframe in jeder Zelle nur ein einzelnes Wort aufgeführt wurde. Anschließend wurde die Häufigkeit ausgezählt und ebenfalls in einem Dataframe abgespeichert. Mithilfe von Plotly konnte dann ein horizontales Balkendiagramm erstellt werden.
 
-### 6. Erstellung des Reports
-
-Der Report sollte als eine Art Handout denjenigen zur Verfügung stehen, die während der Präsentation nicht anwesend sein konnten. Daher waren ausführlichere schriftliche Erklärungen und Informationen zu den Visualisierungen notwendig, um die Ergebnisse aufzubereiten. Es stellte quasi eine schriftliche Form der Präsentation dar, die man sich im Nachgang jederzeit nochmal durchlesen kann.
-
-### 7. Erstellung der Präsentation
+### 6. Erstellung der Präsentation
 
 Für die Abschlusspräsentation wurde zunächst [Canva](https://www.canva.com/) genutzt, um ein ansprechendes Design für die Foliensätze zu finden. Später wurde diese nochmal in PowerPoint weiterbearbeitet. Da die Präsentation im fiktiven Szenario an das Unternehmen Huawei gerichtet ist, wurden allgemein dunklere Farben gewählt sowie das akzentreiche Rot aus dem Huawei-Logo. Alle Illustrationen, die verwendet wurden entstammen aus der Open Source Plattform [unDraw](https://undraw.co/). Die Gliederung des Vortrags ergab sich einerseits aus den Kurs-Vorgaben und andererseits aus den Gedanken zum Storyboarding:
 
@@ -67,6 +63,14 @@ Für die Abschlusspräsentation wurde zunächst [Canva](https://www.canva.com/) 
 Die ersten drei inhaltlichen Punkte sollen zur Einführung ins Unternehmen selbst und dem zugrundeliegenden Projekt dienen. Daher wurde auch das Ziel, die Vorgehensweise und die verwendeten Metriken kurz erläutert, um den Zusammenhang besser nachvollziehen zu können. 
 Für die Präsentation der Ergebnisse wurden Screenshots vom Dashboard eingebaut, um den Präsentationsmodus nicht unterbrechen und zu einer anderen Anwendung wechseln zu müssen. Sie entstammen also der eigenen Darstellung.
 Allgemein wurde stark darauf geachtet, den Fokus auf das Wesentliche zu lenken, indem PowerPoint-Animationen hinzugefügt wurden. Das ermöglichte es einzelne Stichworte auf den Folien hervorzuheben während die restlichen ausgegraut wurden. Dadurch soll ein besseres Folgen seitens der Zuhörer:innen ermöglicht werden, wie wir es in der Vorlesung bereits thematisiert hatten. Wichtig war auch, dass nicht zu viele Informationen auf den Folien festgehalten wurde, damit das Publikum nicht mit zu vielen Inhalten gleichzeitig konfrontiert wird. Das soll die Konzentration und Aufnahmefähigkeit während der Präsentation gewährleisten.
+
+### 7. Erstellung des Reports
+
+Der Report soll als eine Art Handout denjenigen zur Verfügung stehen, die während der Präsentation nicht anwesend sein konnten. Daher waren ausführlichere schriftliche Erklärungen und Informationen zu den Visualisierungen notwendig, um die Ergebnisse aufzubereiten. Es stellte quasi eine schriftliche Form der Präsentation dar, die man sich im Nachgang jederzeit nochmal durchlesen kann.
+
+Die Struktur des Reports weicht daher auch nicht von der Präsentation ab. Es werden dieselben thematischen Punkte behandelt, in derselben Reihenfolge. Zudem sind Screenshots aller Visualisierungen des Dashboards enthalten. Auf den ersten Folien werden zudem Links bereitgestellt, die zu den verwendeten Statistiken von Statista führen, um die Quellen überprüfen zu können.
+
+Der Report wurde mit der Python-Bibliothek python-pptx erstellt. Dabei wurden die PowerPoint-Folien mithilfe von Python-Code generiert. Der Aufbau und die Funktionsweise des Pakets wurde der offiziellen [Dokumentation](https://python-pptx.readthedocs.io/en/latest/user/quickstart.html) entnommen.
 
 ### 8. Verfassung der Projektdokumentation
 
